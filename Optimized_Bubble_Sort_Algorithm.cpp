@@ -5,6 +5,7 @@ int main()
     int n,temp,i;
     cout<<"Enter the size of Array:\n";
     cin>>n;
+    // Taking Input---
     int a[n];
     for(i=0;i<n;i++)
     {
@@ -12,6 +13,7 @@ int main()
         cin>>a[i];
     }
     bool swapped;
+    // Algorithm---
     for(i=0;i<n-1;i++)
     {
         swapped=false;
@@ -30,6 +32,7 @@ int main()
             break;
         }
     }
+    // Output---
     cout<<"Sorted Array:"<<endl;
     for(int i=0;i<n;i++)
     {
