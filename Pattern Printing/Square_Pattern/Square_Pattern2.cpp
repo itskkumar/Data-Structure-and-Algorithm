@@ -2,7 +2,9 @@
 using namespace std;
 int main()
 {
-    int n=4;
+    int n;
+    cout<<"Enter the size of row/coloumn:"<<endl;
+    cin>>n;
     for(int i=0;i<n;i++)
     {
         char ch='A';
