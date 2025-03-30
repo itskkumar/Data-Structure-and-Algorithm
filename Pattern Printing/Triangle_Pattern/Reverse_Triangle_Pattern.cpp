@@ -2,7 +2,9 @@
 using namespace std;
 int main()
 {
-    int i,j,n=4;
+    int i,j,n;
+    cout<<"Enter the size of row:"<<endl;
+    cin>>n;
     for(i=1;i<=n;i++)
     {
         for(j=i;j>=1;j--)
