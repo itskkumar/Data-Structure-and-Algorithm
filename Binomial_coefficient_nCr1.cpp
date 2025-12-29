@@ -8,6 +8,7 @@ int main()
     cin>>n;
     cout<<"Enter the value of cofficient r: "<<endl;
     cin>>r;
+    // Algo---
     d=(n-r);
     for(i=n;i>0;i--)
     {
