@@ -13,7 +13,7 @@ int main()
         cout<<"Enter "<<i+1<<" element: "<<endl;
         cin>>a[i];
     }
-//Algorithm---
+//Algorithm of bubble sort---
     for(i=0;i<n-1;i++)
     {
         for(j=0;j<n-i-1;j++)
